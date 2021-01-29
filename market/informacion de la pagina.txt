@@ -1,0 +1,23 @@
+
+
+*Los usuarios contaran con un perfil de seguridad ya que sus contraseñas seran encriptadas en caso de 
+ que personas que nos roben la base de datos o que pueda acceder a ella de manera maliciosa 
+no pueda ver las contraseñas de las personas que se registran.
+
+*La pagina cuenta con seguridad anti boots para que no tengan control sobre el manejo de parametros de enlaces.
+
+*Incluye metodos especiales que pueden ser utilizados por tecnologias hechas para personas videntes
+con el fin de leer codigos html.
+Tipo de clase :<span class="sr-only">
+el dispositivo tiene que tener activada la lectura para videntes.
+Solo se usa en botones que no tienen texto pero significan algo.
+
+*Cuenta con URLs amistosas, es una manera de manejo de las direcciones web que se usa actualmente para 
+una busqueda de contenido optima, es mas facil de entender para los humanos, y asi los buscadores procesan estos enlaces
+de manera mas factible, quiere decir que cuando una persona realiza una busqueda por ejemplo en google
+es mas posible de que la pagina web aparezca.
+normalmente se usa /entrada.php?entrada=43, 
+
+*La recuperación de contraseña es mediante un link unico que se crea a traves de un string aleatorio combinando
+caracteres numericos y letras de manera que sea practicamente imposible de adivinar
+

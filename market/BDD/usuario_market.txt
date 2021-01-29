@@ -1,0 +1,11 @@
+create database market;
+use market;
+create table usuarios(
+		id int NOT NULL UNIQUE AUTO_INCREMENT,
+		nombre varchar(100) NOT NULL UNIQUE,
+		email varchar(255) NOT NULL UNIQUE,
+		clave varchar(255) NOT NULL,
+		fecha_registro DATETIME NOT NULL,
+		activo tinyint NOT NULL,
+		primary key(id)
+);
