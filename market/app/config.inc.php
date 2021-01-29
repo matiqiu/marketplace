@@ -1,10 +1,10 @@
 <?php
 
 //Info de la base de datos
-define('NOMBRE_SERVIDOR', 'localhost');
-define('NOMBRE_USUARIO', 'root');
-define('CLAVE', '');
-define('NOMBRE_BD', 'market');
+define('NOMBRE_SERVIDOR', 'private');
+define('NOMBRE_USUARIO', 'private');
+define('CLAVE', 'private');
+define('NOMBRE_BD', 'private');
 
 //rutas de la web
 define("SERVIDOR", "http://localhost/market");
